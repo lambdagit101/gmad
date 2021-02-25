@@ -70,13 +70,13 @@ int main( int argc, char* argv[] )
 	//
 	Output::Msg("\nUsage:\n\n");
 
-	Output::Msg("\tDrag'n'drop a .gma onto the gmad.exe to extract it\n");
-	Output::Msg("\tDrag'n'drop a folder onto the gmad.exe to convert it to a .gma\n\n");
+	Output::Msg("\tDrag'n'drop a .gma onto the gmad executable to extract it\n");
+	Output::Msg("\tDrag'n'drop a folder onto the gmad executable to convert it to a .gma\n\n");
 
-	Output::Msg("\tgmad.exe create -folder path/to/folder -out path/to/gma.gma\n");
-	Output::Msg("\tgmad.exe create -folder path/to/folder\n");
-	Output::Msg("\tgmad.exe extract -file path/to/gma.gma -out path/to/folder\n");
-	Output::Msg("\tgmad.exe extract -file path/to/gma.gma\n\n");
+	Output::Msg("\tgmad create -folder path/to/folder -out path/to/gma.gma\n");
+	Output::Msg("\tgmad create -folder path/to/folder\n");
+	Output::Msg("\tgmad extract -file path/to/gma.gma -out path/to/folder\n");
+	Output::Msg("\tgmad extract -file path/to/gma.gma\n\n");
 
 	Output::Msg("\tAdd -warninvalid to automatically skip invalid files\n\n");
 
